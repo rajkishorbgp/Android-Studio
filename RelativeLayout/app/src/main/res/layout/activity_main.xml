@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:text="Hello World!"
+
+        android:textColor="#1610C3"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/a"
+        android:background="@color/purple_700"
+        android:gravity="center"
+
+        android:text="Raj Kishor"
+        android:textColor="#1A72D1"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/b"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="60dp" />
+
+
+</RelativeLayout>
